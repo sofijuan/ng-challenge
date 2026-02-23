@@ -1,0 +1,38 @@
+.job-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  background-color: #fff;
+}
+
+.job-item h2 {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.job-item button {
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.job-item button:hover {
+  background-color: #0052cc;
+}
+
+.job-item button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.success-message {
+  margin-top: 8px;
+  color: #2e7d32;
+  font-size: 14px;
+}
